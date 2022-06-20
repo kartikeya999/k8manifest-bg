@@ -1,7 +1,7 @@
 name: bgdemo
 replicas: 2
 
-image: ${artifact.metadata.image}
+image: <+artifact.images>
 dockercfg: ${artifact.source.dockerconfig}
 
 createNamespace: true
