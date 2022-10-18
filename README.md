@@ -1,2 +1,2 @@
 # k8manifest
-hello
+hi
